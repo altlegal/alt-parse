@@ -1,5 +1,5 @@
 {
-  "name": "parse",
+  "name": "alt-parse",
   "version": "1.4.1",
   "description": "The Parse JavaScript SDK",
   "keywords": [
@@ -8,10 +8,6 @@
     "api"
   ],
   "homepage": "http://www.parse.com",
-  "bugs": {
-    "url": "https://www.parse.com/help",
-    "email": "community@parse.com"
-  },
   "files": [
     "build/parse-latest.js"
   ],
