@@ -4846,7 +4846,7 @@
               requests: _.map(batch, function(object) {
                 return {
                   method: "DELETE",
-                  path: "/parse/classes/" + object.className + "/" + object.id
+                  path: "/1/parse/classes/" + object.className + "/" + object.id
                 };
               })
             }
@@ -6439,7 +6439,7 @@
                 var json = object._getSaveJSON();
                 var method = "POST";
 
-                var path = "/parse/classes/" + object.className;
+                var path = "/1/parse/classes/" + object.className;
                 if (object.id) {
                   path = path + "/" + object.id;
                   method = "PUT";
